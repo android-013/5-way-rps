@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:  #3B3B98;
+}
+
+.game-container {
+    text-align: center;
+    background-color: #55E6C1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.modes button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modes button:hover {
+    background-color: #0056b3;
+}
+
+.modes button.active {
+    box-shadow: 0 0 10px 3px #007BFF;
+}
+
+.displays {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Space between Auto and Player */
+    margin: 20px 0;
+}
+
+.display {
+    text-align: center;
+}
+
+.label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.symbol {
+    font-size: 3rem;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+
+.choices {
+    margin-top: 20px;
+}
+
+.choice-btn {
+    font-size: 2rem;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.choice-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.choice-btn button.active {
+    background-color: #0056b3;
+    box-shadow: 0 0 10px 3px #007BFF;
+}
+
+#playBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#playBtn:hover {
+    background-color: #218838;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
